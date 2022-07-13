@@ -1,2 +1,5 @@
-package Recursion;public class SubSequence {
+package Recursion;
+
+public class SubSequence {
+
 }
