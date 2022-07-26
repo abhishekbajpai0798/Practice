@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class SubsetSumDiv_by_k {
     public static void main(String[] args) {
-        int arr[]={3, 1, 7, 5};
-        int k=6;
+        int arr[]={1,2,3,4,5,6,7};
+        int k=3;
         int sum=0;
         ArrayList<Integer> list = new ArrayList<>();
         subSetSum(0,list,arr, arr.length, sum, k);
