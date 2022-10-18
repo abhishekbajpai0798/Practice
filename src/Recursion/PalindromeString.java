@@ -2,7 +2,7 @@ package Recursion;
 
 public class PalindromeString {
     public static void main(String[] args) {
-        String str="madaklm";
+        String str="baab";
         Boolean checkPal= isPalindrome(str, 0, str.length()-1);
         System.out.println(checkPal);
     }
