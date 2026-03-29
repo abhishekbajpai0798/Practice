@@ -2,14 +2,16 @@ package String;
 
 public class CheckAnagram_Optimise {
     public static void main(String[] args) {
-        String s1="a";
-        String s2="ab";
+        String s1="racecar";
+        String s2="carrace";
         int counter[]=new int[26];
 
         for (int i=0;  i<s1.length(); i++){
+            //System.out.println(s1.charAt(i)-'a'); return the index value of that particular char
             counter[s1.charAt(i)-'a']++;
             counter[s2.charAt(i)-'a']--;
         }
+
         //print statement
         for (int i: counter){
             System.out.print(i+" ");

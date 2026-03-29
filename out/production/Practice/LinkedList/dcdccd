@@ -1,0 +1,45 @@
+package LinkedList;
+
+ class Node{
+    int data;
+    Node next;
+    Node(int data){
+        this.data = data;
+        this.next = null;
+    }
+    
+public class LinkedListImpl {
+        public static void main(String[] args) {
+            System.out.println("Creating the list");
+//                Node head = new Node(10);
+//                head.next = new Node(20);
+//                head.next.next = new Node(30);
+//                head.next.next.next = new Node(40);
+//                System.out.println(head.next.next.data);
+            
+//            insert(10);
+//            // print the elements of the linked
+//            Node temp = head;
+//            while (temp != null){
+//                System.out.println(temp.data);
+//                temp=temp.next;
+//            }
+        }
+
+        public static void insert(int data){
+            Node head = null;
+            Node newNode = new Node(data);
+            if(head == null){
+                head = newNode;
+                return;
+            }
+            Node temp = head;
+            while (temp.next != null){
+                temp = temp.next;
+            }
+            temp = temp.next;
+        }
+
+    }}
+
+    
